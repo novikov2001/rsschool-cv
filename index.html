@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>curriculum vitae</title>
+   <link rel="stylesheet" href="css/Main.css">
+</head>
+<body>
+   <div class="conteuner">
+      <header class="header">
+         <figure class="figure">
+            <img class="img-fluid" src="https://static-prod.weplay.tv/users/avatar/user_74950_e06d1a10c44dea16efe99988570b2ddf.png" alt="Wait">
+            <h2>My name is Ilya Novikov</h2>
+         </figure>
+         <div class="text">
+            <h1>This my curriculum vitae</h1>
+         </div>   
+      </header>
+      <hr>
+      <section class="About">  
+         <h2 class="h2">About me</h2>
+            <div class="content">
+               <p>I live in Belarus in the city of Gomel.I strive to start a career as a front-end developer.
+                  <br>I am persistent and learn fast
+               </p>   
+            </div>
+      </section>
+      <section class="Skills">  
+         <h2 class="h2">My skills</h2>
+         <div class="content">
+            <p>I have not bad theoretical and practical skills in languages such as:</p>
+            <ul>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li> JavaScript</li>
+               <li>C/C++</li>
+            </ul>
+         </div>
+      </section>
+      <section class="Sample">
+         <h2 class="h2">Sample code</h2>
+         <div class="content">
+            <p>
+               Return an array containing the numbers from 1 to N, where N is the parametered value. N will never be less than 1.<br>
+               Replace certain values however if any of the following conditions are met:<br>
+               If the value is a multiple of 3: use the value "Fizz" instead<br> If the value is a multiple of 5: use the value "Buzz" instead<br> If the value is a multiple of 3 & 5: use the value "FizzBuzz" instead
+               function fizzbuzz(n)
+            </p>
+            <!-- <img class="img-code" src="img/Code.PNG" alt="#"> -->
+          <pre class="code">
+   function fizzbuzz(n)
+   {
+   var arr=[];
+   for(i=1;i&lt;=n;i++){
+      arr.push(i);
+      if(arr[i-1]%3==0 && arr[i-1]%5==0){arr.splice(i-1,1,"FizzBuzz")}
+      else if(arr[i-1]%5==0){arr.splice(i-1,1,"Buzz")}
+      else if(arr[i-1]%3==0){arr.splice(i-1,1,"Fizz")}
+      }
+   console.log(arr);
+   return arr;
+   }      
+             </pre>
+         </div>
+      </section>
+      <section class="Education">
+         <h2 class="h2">Education</h2>
+         <div class="content">
+            <P>I am a student of the Belarusian State University of Transport.<br>
+               Now currently taking JavaScript courses Frontend<br>
+            </P> 
+         </div>
+      </section>
+      <section class="English">
+         <h2 class="h2">English level</h2>
+         <div class="content">
+            <P>My english level A2-elementary</P>
+         </div>
+      </section>
+   </div>
+   <footer class="footer">
+      <div class="fooret-content">
+      <h3>Contact me</h3>
+      <nav class="nav">
+         <ul class="list-group">
+            <li class="list-group-item active">
+               <a class="nav-link" href="https://vk.com/id176117791">Vkontacte</a>
+            </li>
+            <li class="list-group-item disabled" aria-disabled="true">
+               <a class="nav-link" href="https://github.com/novikov2001/rsschool-cv/blob/gh-pages/cv.md">Github</a>
+            </li>
+         </ul>
+      </nav>
+      </div>
+   </footer>
+</body>
+</html>
