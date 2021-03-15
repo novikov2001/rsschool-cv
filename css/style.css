@@ -1,0 +1,328 @@
+body{
+   align-items: center;
+   margin: 0px;
+   background-color: rgb(101, 146, 129);
+}
+ul{
+   list-style:none;
+}
+a{
+   text-decoration: none;
+   color: #f7f7f7;
+
+}
+h1{
+   color:#CD6326;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 72px;
+}
+h2{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 48px;
+   line-height: 72px;
+   text-align: center;
+   color: #333333;
+   margin: 0;
+}
+h3{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 27px;
+   line-height: 40px;
+   text-align: center;
+   color: #333333;
+}
+h4{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 22px;
+   line-height: 36px;
+   text-align: center;
+   color: #F7F7F7;
+}
+.conteyner{
+  max-width: 1440px;
+  margin: 0 auto  ;
+} 
+.firstsection{
+  margin: 0;
+  background-image: url("../img/lisa.png");
+  height: 779px;
+  color: #f7f7f7;
+} 
+.header{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 19px;
+}
+.logo{
+   display: flex;
+   margin: auto 0;
+}
+.logo_img{
+   margin-left: 120px;
+}
+.logo_str{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 60px;
+   text-transform: uppercase;
+   margin: 0 0 0 20px;
+}
+.nav_ul{
+   font-family: 'Open Sans', sans-serif;
+   font-size: 23px;
+   line-height: 60px;
+   display: flex;
+   margin: 0;
+}
+.nav_li{
+   margin-right: 60px;
+}
+.nav_a_img {
+   margin-top: 16px;
+   
+}
+.nav_a:hover {
+   color: #CD6326;
+}
+.nav_button{
+   margin-right: 143px;
+}
+.nav_a_sign{
+   padding: 8px 15px 8px 15px;
+   transition: border 0.2s;
+   border: solid 2px #CD6326;
+   border-radius: 8%;
+   transition: background-color 0.2s;
+}
+ .nav_a_sign:hover {
+   background-color:#CD6326;
+} 
+.nav_a_sign:active {
+   background-color:#8F5613;
+   border: solid 2px #8F5613;
+} 
+.Survival{
+   margin-left: 120px;
+   margin-top: 115px;
+}
+.Survial-text{
+   width: 274px;
+   height: 108px;
+   margin-top: 50px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 27px;
+   letter-spacing:normal;
+}
+.button{
+   width: 160px;
+   height: 60px;
+   margin-top: 29px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 27px;
+   color:#f7f7f7;
+   background-color: #CD6326;
+   border:none;
+   border-radius: 5px;
+   transition: background-color 0.1s;
+}
+.button:hover{
+   background-color: #E39128;
+}
+.button:focus{
+   outline: none;
+}
+.button:active{
+   background-color: #8F5613;
+}
+/*____________Latest______________*/
+.Latest{
+   margin: 0;
+   height: 1368px;
+   background-image: url("../img/Latest.png")
+}
+.latest-text{
+   padding-top: 120px;
+}
+.latest-text-p{
+   margin-top: 20px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 24px;
+   line-height: 36px;
+   text-align: center;
+   color: #666666;
+}
+.slider{
+   display: flex;
+   justify-content: center;
+   margin-top: 120px;
+}
+.slider_element{
+   height: 360px;
+   width: 300px;
+   color:#f7f7f7;
+   margin-left: 60px;
+}
+.h4_slider{
+   margin-top: 247px;
+   margin-bottom: 0px;
+}
+.strelki{
+   margin: auto 0;
+   width: 30px;
+   height: 70px;
+}
+.strelki:hover{
+    filter: contrast(175%) brightness(3%);
+}
+.str_left{
+   background-image: url("../img/Left.png");
+}
+.str_right {
+   margin-left: 60px;
+   background-image: url("../img/Right.png");
+}
+.Deer{
+   background-image: url("../img/Deer.jpg");
+}
+.Squirrel {
+   background-image: url("../img/Squirrel.jpg");
+}
+.Bird {
+   background-image: url("../img/Bird.jpg");
+}
+.info{
+   margin-top: 10px;
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 17px;
+   line-height: 27px;
+   text-align: center;
+   color: #F7F7F7;
+}
+.H3{
+   margin-top: 239px;
+}
+.GetNotified{
+   margin-top: 59px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+.form-email{
+   height: 48px;
+   width: 540px;
+   padding: 5px 0 5px 5px;
+   background-color: #CCCCCC;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 27px;
+   align-items: center;
+   color: #666666;
+   border: solid 1px #666666;
+
+}
+.form-email:focus::placeholder{
+   opacity: 0;
+}
+.form-submit{
+   width: 120px;
+   height: 61px;
+   padding: 0px;
+   margin-left: -5px;
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 27px;
+   text-align: center;
+   color: #F7F7F7;
+   background: #CD6326;
+   border: 1px solid #CD6326;
+   border-radius: 0 5px 5px 0;
+}
+.form-submit:hover{
+   border: 1px solid #E39128;
+   background: #E39128;
+}
+.form-submit:active {
+   border: 1px solid #8F5613;
+   background: #8F5613;
+}
+/*____________Footer______________*/
+.footer{
+   height:360px;
+   background-image: url("../img/footer.jpg");
+   color: #f7f7f7;
+   
+}
+.footer_content{
+   display: flex;
+   padding-top: 150px;
+}
+.footer_logo{
+   margin-right: 140px;
+   margin-left: 113px;
+}
+.Footer_logo_str{
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 32px;
+   line-height: 60px;
+   text-transform: uppercase;
+   margin: 0 0 0 15px;
+}
+.footer_link_ul{
+   display: flex;
+   padding-left: 0;
+}
+.link_ul_li{
+   font-family: 'Open Sans', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;   
+   margin-left: 86px; 
+}
+.link_ul_li:first-child{
+   margin-left: 0px; 
+}
+.link_a:hover{
+   color: #CD6326;
+}
+.footer_seti{
+margin-left: 98px;
+}
+.seti_ul{
+   display: flex;
+}
+.seti_li{
+   margin-left: 27px;
+}
+.seti_li:hover{
+   filter: invert(3);
+}
+.seti_li:first-child{
+   margin-left: 0;
+}
